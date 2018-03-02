@@ -26,26 +26,27 @@ func (cApi ConsensusApi) StartConsensus(id user.PeerID, block cs.Block, parliame
 	}
 
 	//Paliament의 Validate Check
-	valid := cApi.authenticationApi.IsValidParliment(parliament)
+	IsValidParliment := cApi.authenticationApi.IsValidParliment(parliament)
 
-	if !valid{
+	if !IsValidParliment{
 		return errors.New("Not a vaild parliament")
 	}
 
-	if valid{
+	if parliament.IsNeedConsensus() {
 
-		if parliament.IsNeedConsensus() {
-			consensus := leader.StartConsensus(cs.NewConsensusID(xid.New().String()),parliament, block)
-			PreprepareMessage := consensus.CreatePreprepareMsg()
+		consensus := leader.StartConsensus(cs.NewConsensusID(xid.New().String()),parliament, block)
+		consensus.Start()
 
-			cApi.copnsensusRepository.Save(consensus)
-			cApi.messageApi.BroadCastPreprepareMsg(PreprepareMessage,consensus.Parliament.Members)
+		PreprepareMessage := msg.CreatePreprepareMsg(*consensus)
 
-		}else{
-			cApi.messageApi.RetureConfirmedBlock(block)
-		}
+		cApi.copnsensusRepository.Save(consensus)
+		cApi.messageApi.BroadCastPreprepareMsg(PreprepareMessage,consensus.Parliament.Members)
 
+	}else{
+		cApi.messageApi.ReturnConfirmedBlock(block)
 	}
+
+	return nil
 }
 
 func (cApi ConsensusApi) ReceivePrepareMsg(id cs.ConsensusID, msg msg.PrepareMsg){

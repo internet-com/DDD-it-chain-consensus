@@ -13,6 +13,6 @@ func (mApi *MessageApi) BroadCastPreprepareMsg(PreprepareMsg msg.PreprepareMsg, 
 
 }
 
-func (mApi *MessageApi) RetureConfirmedBlock(block cs.Block){
+func (mApi *MessageApi) ReturnConfirmedBlock(block cs.Block){
 
 }
