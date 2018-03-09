@@ -13,21 +13,12 @@ func NewConsensusID (id string) ConsensusID{
 type LeaderID string
 
 type Consensus struct {
-	ConsensusID  ConsensusID
-	Parliament    Parliament
-	Block        Block
-	CurrentState State
-}
-
-func NewConsensus(id ConsensusID,parliament Parliament,block Block) *Consensus{
-
-	return &Consensus{
-		ConsensusID:  id,
-		Parliament:   parliament,
-		Block:        block,
-		CurrentState: new(IdleState)}
+	ConsensusID     ConsensusID
+	Representatives []*Representative
+	Block           Block
+	CurrentState    State
 }
 
 func (c *Consensus) Start(){
-	c.CurrentState = new(PreprepareState)
+	c.CurrentState = new(PrepareState)
 }

@@ -1,9 +1,33 @@
 package msg
 
-type PrepareMsgID struct {
-	ID string
-}
+import (
+	"github.com/junbeomlee/it-chain/consensus/domain/model/consensus"
+	"github.com/junbeomlee/it-chain/common"
+	"github.com/junbeomlee/it-chain/protos"
+	"github.com/golang/protobuf/proto"
+)
 
 type PrepareMsg struct {
-	PrepareMsgID PrepareMsgID
+	ConsensusID  consensus.ConsensusID
+	Block        consensus.Block
+}
+
+func (p PrepareMsg) ToByte() ([]byte,error){
+	data, err := common.Serialize(p)
+
+	if err != nil{
+		return nil, err
+	}
+
+	streamMsg := &protos.StreamMsg{}
+	streamMsg.Content = &protos.StreamMsg_PrepareMessage{
+		PrepareMessage:&protos.PrepareMessage{Data:data}}
+
+	streamData,err := proto.Marshal(streamMsg)
+
+	if err != nil{
+		return nil, err
+	}
+
+	return streamData, nil
 }

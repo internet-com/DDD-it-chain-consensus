@@ -2,9 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fccc38e5-7c0a-4fca-833d-e7823302d423" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/common/util.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consensus/api/messageApi_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consensus/domain/factory/consensusFactory.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consensus/domain/factory/msgFactory.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consensus/domain/model/consensus/representative.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consensus/domain/model/msg/msgPool_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consensus/domain/model/parliament/leader.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consensus/domain/model/parliament/member.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consensus/domain/service/electionPolicy.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consensus/domain/service/electionPolicy_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consensus/domain/service/timeoutBatch.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/messaging/event/event.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/messaging/messages.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/messaging/messaging.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/messaging/messaging_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protos/common.proto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protos/consensusMsg.proto" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Gopkg.lock" afterPath="$PROJECT_DIR$/Gopkg.lock" />
+      <change beforePath="$PROJECT_DIR$/Gopkg.toml" afterPath="$PROJECT_DIR$/Gopkg.toml" />
+      <change beforePath="$PROJECT_DIR$/consensus/api/authenticationApi.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/consensus/api/consensusApi.go" afterPath="$PROJECT_DIR$/consensus/api/consensusApi.go" />
       <change beforePath="$PROJECT_DIR$/consensus/api/messageApi.go" afterPath="$PROJECT_DIR$/consensus/api/messageApi.go" />
-      <change beforePath="$PROJECT_DIR$/consensus/domain/model/msg/msgFactory.go" afterPath="$PROJECT_DIR$/consensus/domain/model/msg/msgFactory.go" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/model/consensus/block.go" afterPath="$PROJECT_DIR$/consensus/domain/model/consensus/block.go" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/model/consensus/consensus.go" afterPath="$PROJECT_DIR$/consensus/domain/model/consensus/consensus.go" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/model/consensus/parliament.go" afterPath="$PROJECT_DIR$/consensus/domain/model/parliament/parliament.go" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/model/msg/commitMsg.go" afterPath="$PROJECT_DIR$/consensus/domain/model/msg/commitMsg.go" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/model/msg/msgFactory.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/model/msg/prepareMsg.go" afterPath="$PROJECT_DIR$/consensus/domain/model/msg/prepareMsg.go" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/model/msg/preprepareMsg.go" afterPath="$PROJECT_DIR$/consensus/domain/model/msg/preprepareMsg.go" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/model/pool/msgPool.go" afterPath="$PROJECT_DIR$/consensus/domain/model/msg/msgPool.go" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/model/user/participant.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/model/user/peerID.go" afterPath="$PROJECT_DIR$/consensus/domain/model/parliament/peerID.go" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/model/user/proponent.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/repository/commitMsgRepository.go" afterPath="$PROJECT_DIR$/consensus/domain/repository/parliamentRepository.go" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/repository/consensusRepository.go" afterPath="$PROJECT_DIR$/consensus/domain/repository/consensusRepository.go" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/repository/prepareMsgRepository.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/consensus/domain/service/consensusPolicy.go" afterPath="$PROJECT_DIR$/consensus/domain/service/consensusPolicy.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,102 +49,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="consensusApi.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/consensus/api/consensusApi.go">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="msgPool.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/msgPool.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
-                <element signature="e#13#309#0" expanded="true" />
+                <element signature="e#13#101#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="consensus.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consensus/domain/model/consensus/consensus.go">
+      <file leaf-file-name="msgPool_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/msgPool_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parliament.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consensus/domain/model/consensus/parliament.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="421">
+              <caret line="45" column="87" lean-forward="false" selection-start-line="45" selection-start-column="87" selection-end-line="45" selection-end-column="87" />
               <folding>
-                <element signature="e#19#91#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prepareMsg.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/prepareMsg.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="msgFactory.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/msgFactory.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              <folding>
-                <element signature="e#13#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commitMsg.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/commitMsg.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="preprepareMsg.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/preprepareMsg.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messageApi.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consensus/api/messageApi.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="e#13#154#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authenticationApi.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consensus/api/authenticationApi.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#13#152#0" expanded="true" />
+                <element signature="e#13#149#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,6 +86,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Consensus</find>
+      <find>consensus</find>
     </findStrings>
     <replaceStrings>
       <replace>ConsensusState</replace>
@@ -139,20 +99,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/consensus/domain/repository/prepareMsgRepository.go" />
-        <option value="$PROJECT_DIR$/consensus/domain/repository/commitMsgRepository.go" />
-        <option value="$PROJECT_DIR$/consensus/domain/service/policy.go" />
-        <option value="$PROJECT_DIR$/consensus/domain/model/consensus/state.go" />
-        <option value="$PROJECT_DIR$/consensus/domain/model/consensus/block.go" />
-        <option value="$PROJECT_DIR$/consensus/domain/model/pool/msgPool.go" />
-        <option value="$PROJECT_DIR$/consensus/domain/model/msg/CommitMsg.go" />
-        <option value="$PROJECT_DIR$/consensus/domain/model/msg/PrepareMsg.go" />
-        <option value="$PROJECT_DIR$/consensus/domain/model/msg/PreprepareMsg.go" />
-        <option value="$PROJECT_DIR$/consensus/domain/model/user/Proponent.go" />
-        <option value="$PROJECT_DIR$/consensus/domain/model/user/Participant.go" />
         <option value="$PROJECT_DIR$/consensus/domain/model/user/PeerID.go" />
         <option value="$PROJECT_DIR$/consensus/domain/model/user/peerID.go" />
-        <option value="$PROJECT_DIR$/consensus/domain/repository/consensusRepository.go" />
         <option value="$PROJECT_DIR$/consensus/domain/model/msg/MsgFactory.go" />
         <option value="$PROJECT_DIR$/consensus/domain/service/PaliamentPolicy.go" />
         <option value="$PROJECT_DIR$/consensus/domain/model/user/proponent.go" />
@@ -160,14 +108,48 @@
         <option value="$PROJECT_DIR$/consensus/domain/model/user/participant.go" />
         <option value="$PROJECT_DIR$/consensus/api/authentication/authenticationApi.go" />
         <option value="$PROJECT_DIR$/consensus/api/msg.go" />
-        <option value="$PROJECT_DIR$/consensus/domain/model/consensus/consensus.go" />
         <option value="$PROJECT_DIR$/consensus/api/msg/messageApi.go" />
         <option value="$PROJECT_DIR$/consensus/api/consensus/consensusApi.go" />
         <option value="$PROJECT_DIR$/consensus/api/authenticationApi.go" />
         <option value="$PROJECT_DIR$/consensus/domain/model/consensus/parliament.go" />
-        <option value="$PROJECT_DIR$/consensus/api/messageApi.go" />
         <option value="$PROJECT_DIR$/consensus/domain/model/msg/msgFactory.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/user/member.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/user/leader.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/service/ElectionPolicy.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/repository/parliamentRepository.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/factory/consensusFactory.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/id/id.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/parliament/peerID.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/service/electionPolicy_test.go" />
+        <option value="$PROJECT_DIR$/common/util.go" />
+        <option value="$PROJECT_DIR$/messaging/event.go" />
+        <option value="$PROJECT_DIR$/protos/common.proto.go" />
+        <option value="$PROJECT_DIR$/protos/consensusMsg.proto.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/consensus/block.go" />
+        <option value="$PROJECT_DIR$/messaging/messages.go" />
+        <option value="$PROJECT_DIR$/messaging/event/event.go" />
+        <option value="$PROJECT_DIR$/messaging/messaging_test.go" />
+        <option value="$PROJECT_DIR$/messaging/messaging.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/consensus/consensus.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/msg/preprepareMsg.go" />
+        <option value="$PROJECT_DIR$/consensus/api/messageApi.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/parliament/leader.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/parliament/member.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/consensus/representative.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/service/electionPolicy.go" />
+        <option value="$PROJECT_DIR$/consensus/api/messageApi_test.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/parliament/parliament.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/service/timeoutBatch.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/repository/consensusRepository.go" />
         <option value="$PROJECT_DIR$/consensus/api/consensusApi.go" />
+        <option value="$PROJECT_DIR$/protos/consensusMsg.proto" />
+        <option value="$PROJECT_DIR$/protos/common.proto" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/msg/commitMsg.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/msg/prepareMsg.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/factory/msgFactory.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/service/consensusPolicy.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/msg/msgPool.go" />
+        <option value="$PROJECT_DIR$/consensus/domain/model/msg/msgPool_test.go" />
       </list>
     </option>
   </component>
@@ -177,10 +159,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
     <option name="width" value="1680" />
-    <option name="height" value="486" />
+    <option name="height" value="975" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,12 +180,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="it-chain" type="b2602c69:ProjectViewProjectNode" />
               <item name="it-chain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="it-chain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="it-chain" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="it-chain" type="b2602c69:ProjectViewProjectNode" />
@@ -221,6 +210,13 @@
               <item name="it-chain" type="462c0819:PsiDirectoryNode" />
               <item name="consensus" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="it-chain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="it-chain" type="462c0819:PsiDirectoryNode" />
+              <item name="consensus" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="it-chain" type="b2602c69:ProjectViewProjectNode" />
@@ -251,15 +247,14 @@
               <item name="consensus" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="pool" type="462c0819:PsiDirectoryNode" />
+              <item name="parliament" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="it-chain" type="b2602c69:ProjectViewProjectNode" />
               <item name="it-chain" type="462c0819:PsiDirectoryNode" />
               <item name="consensus" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="it-chain" type="b2602c69:ProjectViewProjectNode" />
@@ -268,12 +263,15 @@
               <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="it-chain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="it-chain" type="462c0819:PsiDirectoryNode" />
+              <item name="protos" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,9 +280,13 @@
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jun/go/src/github.com/junbeomlee/it-chain/consensus/domain/model/msg/msgFactory.go" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/messaging/event" />
+      <recent name="$PROJECT_DIR$/consensus/domain/model/msg" />
+      <recent name="$PROJECT_DIR$/consensus/domain/model/parliament" />
       <recent name="$PROJECT_DIR$/consensus/api" />
       <recent name="$PROJECT_DIR$/consensus/api/consensus" />
     </key>
@@ -301,29 +303,124 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Go Test.TestMsgPool_FindPrepareMsgsByConsensusID in msgPool_test.go">
+    <configuration name="TestElect in electionPolicy_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="it-chain" />
+      <working_directory value="$PROJECT_DIR$/consensus/domain/service" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/junbeomlee/it-chain/consensus/domain/service" />
+      <pattern value="^TestElect$" />
+    </configuration>
+    <configuration name="TestMessageApi_BroadCastMsg in messageApi_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="it-chain" />
+      <working_directory value="$PROJECT_DIR$/consensus/api" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/junbeomlee/it-chain/consensus/api" />
+      <pattern value="^TestMessageApi_BroadCastMsg$" />
+    </configuration>
+    <configuration name="TestMessaging_Start2 in messaging_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="it-chain" />
+      <working_directory value="$PROJECT_DIR$/messaging" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/junbeomlee/it-chain/messaging" />
+      <pattern value="^TestMessaging_Start2$" />
+    </configuration>
+    <configuration name="TestMsgPool_FindPrepareMsgsByConsensusID in msgPool_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="it-chain" />
+      <working_directory value="$PROJECT_DIR$/consensus/domain/model/msg" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/junbeomlee/it-chain/consensus/domain/model/msg" />
+      <pattern value="^TestMsgPool_FindPrepareMsgsByConsensusID$" />
+    </configuration>
+    <configuration name="TestMsgPool_InsertPrepareMsg in msgPool_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="it-chain" />
+      <working_directory value="$PROJECT_DIR$/consensus/domain/model/msg" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/junbeomlee/it-chain/consensus/domain/model/msg" />
+      <pattern value="^TestMsgPool_InsertPrepareMsg$" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestElect in electionPolicy_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestMessageApi_BroadCastMsg in messageApi_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestMessaging_Start2 in messaging_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestMsgPool_InsertPrepareMsg in msgPool_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestMsgPool_FindPrepareMsgsByConsensusID in msgPool_test.go" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestMsgPool_FindPrepareMsgsByConsensusID in msgPool_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestMsgPool_InsertPrepareMsg in msgPool_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestMessageApi_BroadCastMsg in messageApi_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestElect in electionPolicy_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestMessaging_Start2 in messaging_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestMsgPool_FindPrepareMsgsByConsensusID_in_msgPool_test_go - 2018.03.09 at 21h 43m 08s.xml">
+      <configuration name="TestMsgPool_FindPrepareMsgsByConsensusID in msgPool_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMsgPool_FindPrepareMsgsByConsensusID_in_msgPool_test_go - 2018.03.09 at 21h 44m 02s.xml">
+      <configuration name="TestMsgPool_FindPrepareMsgsByConsensusID in msgPool_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMsgPool_FindPrepareMsgsByConsensusID_in_msgPool_test_go - 2018.03.09 at 21h 45m 00s.xml">
+      <configuration name="TestMsgPool_FindPrepareMsgsByConsensusID in msgPool_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMsgPool_FindPrepareMsgsByConsensusID_in_msgPool_test_go - 2018.03.09 at 21h 45m 32s.xml">
+      <configuration name="TestMsgPool_FindPrepareMsgsByConsensusID in msgPool_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMsgPool_InsertPrepareMsg_in_msgPool_test_go - 2018.03.09 at 21h 39m 39s.xml">
+      <configuration name="TestMsgPool_InsertPrepareMsg in msgPool_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMsgPool_InsertPrepareMsg_in_msgPool_test_go - 2018.03.09 at 21h 40m 02s.xml">
+      <configuration name="TestMsgPool_InsertPrepareMsg in msgPool_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMsgPool_InsertPrepareMsg_in_msgPool_test_go - 2018.03.09 at 21h 40m 16s.xml">
+      <configuration name="TestMsgPool_InsertPrepareMsg in msgPool_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMsgPool_InsertPrepareMsg_in_msgPool_test_go - 2018.03.09 at 21h 40m 48s.xml">
+      <configuration name="TestMsgPool_InsertPrepareMsg in msgPool_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMsgPool_InsertPrepareMsg_in_msgPool_test_go - 2018.03.09 at 21h 41m 10s.xml">
+      <configuration name="TestMsgPool_InsertPrepareMsg in msgPool_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMsgPool_InsertPrepareMsg_in_msgPool_test_go - 2018.03.09 at 21h 41m 28s.xml">
+      <configuration name="TestMsgPool_InsertPrepareMsg in msgPool_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="967" extended-state="6" />
+    <frame x="0" y="24" width="1680" height="975" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15445666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -334,30 +431,169 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/consensus/domain/repository/commitMsgRepository.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/domain/model/pool/msgPool.go">
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/parliament/peerID.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/user/proponent.go" />
+    <entry file="file://$PROJECT_DIR$/consensus/api/authenticationApi.go" />
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/commitMsg.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/api/consensusApi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/repository/commitMsgRepository.go" />
+    <entry file="file://$PROJECT_DIR$/consensus/domain/repository/prepareMsgRepository.go" />
+    <entry file="file://$PROJECT_DIR$/consensus/domain/service/paliamentPolicy.go" />
+    <entry file="file://$PROJECT_DIR$/consensus/api/msg.go" />
+    <entry file="file://$PROJECT_DIR$/consensus/api/authenticationApi.go" />
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/user/participant.go" />
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/user/proponent.go" />
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/id/id.go" />
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/msgFactory.go" />
+    <entry file="file://$PROJECT_DIR$/common/util.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="e#16#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messaging/messages.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/domain/repository/prepareMsgRepository.go">
+    <entry file="file://$PROJECT_DIR$/protos/common.pb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gopkg.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gopkg.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messaging/event/event.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/streadway/amqp/channel.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="1327" column="0" lean-forward="false" selection-start-line="1327" selection-start-column="0" selection-end-line="1327" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messaging/messaging_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="46" column="7" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="46" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messaging/messaging.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../fabric/core/policy/policy.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/service/electionPolicy_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#17#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/api/messageApi_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/service/timeoutBatch.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/service/electionPolicy.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="e#17#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/repository/parliamentRepository.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -365,96 +601,46 @@
     <entry file="file://$PROJECT_DIR$/consensus/domain/repository/consensusRepository.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="e#20#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/domain/service/paliamentPolicy.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/api/msg.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/domain/model/user/participant.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/domain/model/user/peerID.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/domain/service/consensusPolicy.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/domain/model/consensus/block.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/domain/model/consensus/state.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/domain/model/user/proponent.go">
+    <entry file="file://$PROJECT_DIR$/protos/consensusMsg.pb.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/prepareMsg.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/commitMsg.go">
+    <entry file="file://$PROJECT_DIR$/protos/consensusMsg.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protos/common.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/preprepareMsg.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/parliament/peerID.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
@@ -462,60 +648,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/domain/model/consensus/parliament.go">
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/parliament/member.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/parliament/parliament.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#19#91#0" expanded="true" />
+            <element signature="e#20#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/api/authenticationApi.go">
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/parliament/leader.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#152#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/api/messageApi.go">
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/consensus/representative.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#13#154#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consensus/domain/model/consensus/consensus.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/msgFactory.go">
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/consensus/block.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/api/messageApi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/factory/consensusFactory.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#17#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/factory/msgFactory.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/prepareMsg.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/service/consensusPolicy.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#13#93#0" expanded="true" />
+            <element signature="e#17#158#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consensus/api/consensusApi.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
           <folding>
-            <element signature="e#13#309#0" expanded="true" />
+            <element signature="e#13#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/commitMsg.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/consensus/state.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/msgPool_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="45" column="87" lean-forward="false" selection-start-line="45" selection-start-column="87" selection-end-line="45" selection-end-column="87" />
+          <folding>
+            <element signature="e#13#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/domain/model/msg/msgPool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#13#101#0" expanded="true" />
           </folding>
         </state>
       </provider>
